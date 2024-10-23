@@ -5,9 +5,9 @@ import { createContext, useEffect, useState } from "react";
  * KeycloakConfig configures the connection to the Keycloak server.
  */
 const keycloakConfig: KeycloakConfig = {
-  realm: "react-example",
-  clientId: "webapp",
-  url: "http://localhost:8180/auth",
+  realm: "shakshor",
+  clientId: "spring-microservice",
+  url: "http://localhost:8180/",
 };
 
 /**
